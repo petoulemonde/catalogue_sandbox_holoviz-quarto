@@ -7,27 +7,6 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "article.html",
-    "href": "article.html",
-    "title": "holoviz-quarto-sandbox",
-    "section": "",
-    "text": "Title : Quarto and the dynamic client-side website: state of the art\nIndex :"
-  },
-  {
-    "objectID": "article.html#header",
-    "href": "article.html#header",
-    "title": "holoviz-quarto-sandbox",
-    "section": "",
-    "text": "Title : Quarto and the dynamic client-side website: state of the art\nIndex :"
-  },
-  {
-    "objectID": "article.html#article",
-    "href": "article.html#article",
-    "title": "holoviz-quarto-sandbox",
-    "section": "Article",
-    "text": "Article\n\nContexte\nPrécédent portfolio avec mkdocs (cf. mon précédent article).\nLors de la rédaction de ce portfolio, frustration de ne pas pouvoir faire faire exécuter mon code par les utilisateur, avec la contrainte que tout doit être client-side car je n’ai pas de serveur. De plus, idée a germé de faire un site dynamique qui cataloguerait l’open data disponible et en France et la référenceraient selon plusieurs critères, toujours en full client-side.\nEn plus de l’aspect purement technique, c’est 2 projets sont pour moi l’occasion de monter en coméptence sur la partie communication du job de data scientist, et de mettre un pied dans les ‘noouvelles’ technologies web : WebAssembly, PyScript (https://pyscript.com/), Pyodide (https://pyodide.org/en/stable/). Concernant WebAssembly, je vous suggure la page FIrefox, qui est une merveilel de clarté et de premeir pas vers l’application (https://developer.mozilla.org/fr/docs/WebAssembly) .\nL’idée de créer un site dynamique (exécution de code et de dashboards en full client-side) s’est donc imposé à moi. Je souhaitais profiter de ce travail pour monter en compétence sur : - Quarto (https://quarto.org/) qu’on m’avait recommandé et dont j’avais entendu parlé, - Panel (https://panel.holoviz.org/index.html) : Panel est la partie dashboarding de la solution Holoviz (https://holoviz.org/). Holoviz est une solution complète de visualisation et de dashboarding de haut niveau, qui peut prendre de la même façon n’importe quel solution de manipulation de données (polars, pandas, RAy, Dask, …) et générer des graphiques ou dashboard de n’importe quel type (MatPlotLib, Plotly, Bokeh).\n\n\nLes différentes solutions envisagés :\nNote technique : pour chaque solution, environnement virtuel spécifique pour éliminer tout risque d’erreur dû à des problèmes de dépendance.\n\nHoloviz-Quarto\nWebsite : Quarto & Holoviz quarto (https://awesome-panel.github.io/holoviz-quarto/) Code : Python Description : Code python dans ntoebook quarto et utilisation de Holoviz-Quarto pour intégrer Panel dans Quarto\nLes prérequis : - package : - panel\nDéroulé :\nquarto \n\n\nConversion to Pyodide with Panel\nWebsite : Quarto Code : Python & Panel Description : Code du dashboard, puis conversion en script web avec panel\n\n\nPyScript\nWebsite : Quarto Code : PyScript Description : écriture du dashboard directement en pyScript\n\n\nAutres solutions imaginés mais non testés\n\nmkdocs-macro : https://mkdocs-macros-plugin.readthedocs.io/en/latest/\n\n\n\n\nDiscussion\n\n\nConclusion\nQuarto &gt;&gt; mkdocs."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
