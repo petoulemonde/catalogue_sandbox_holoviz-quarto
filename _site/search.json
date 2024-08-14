@@ -18,6 +18,6 @@
     "href": "holoviz.html",
     "title": "Panel in Quarto Examples",
     "section": "",
-    "text": "This is a Panel application embedded in a Quarto doc."
+    "text": "This is a Panel application embedded in a Quarto doc.\n['https://cdn.holoviz.org/panel/wheels/bokeh-3.4.2-py3-none-any.whl', 'https://cdn.holoviz.org/panel/1.4.5/dist/wheels/panel-1.4.5-py3-none-any.whl', 'pyodide-http==0.2.1']"
   }
 ]
